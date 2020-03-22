@@ -1,5 +1,5 @@
 // make connection 
-var socket=io.connect('https://chat-room3.herokuapp.com/')
+var socket=io.connect('http://localhost')
   
 var message= document.getElementById('message'),
     handle=document.getElementById('handle'),

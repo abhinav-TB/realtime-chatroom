@@ -1,5 +1,5 @@
 // make connection 
-
+var PORT=4000
 var socket=io.connect('http://localhost:'+PORT)
   
 var message= document.getElementById('message'),
@@ -7,7 +7,7 @@ var message= document.getElementById('message'),
     btn=document.getElementById('send'),
     output=document.getElementById('output'),
     feedback=document.getElementById('feedback')
-// emit events
+// emit eventss
 
 btn.addEventListener('click',function(){
     socket.emit('chat',{

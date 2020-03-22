@@ -1,5 +1,5 @@
 // make connection 
-var socket=io.connect('http://localhost')
+var socket=io.connect('http://localhost:4000')
   
 var message= document.getElementById('message'),
     handle=document.getElementById('handle'),
